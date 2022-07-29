@@ -5,6 +5,7 @@ const docsRoute = require('./docs.route');
 const config = require('../../config/config');
 
 const router = express.Router();
+const adminRoute = require('./adminPanel.route');
 
 const defaultRoutes = [
   {
@@ -14,6 +15,10 @@ const defaultRoutes = [
   {
     path: '/users',
     route: userRoute,
+  },
+  {
+    path: '/admin',
+    route: adminRoute,
   },
 ];
 
