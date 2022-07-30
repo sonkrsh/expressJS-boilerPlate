@@ -1,4 +1,5 @@
 // ADD_ROUTES
+const testRoute = require('./testRoute'); // test
 
-const combineRoute = [];
+const combineRoute = [testRoute];
 module.exports = combineRoute;
